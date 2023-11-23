@@ -1,0 +1,37 @@
+
+   
+    .menu-button {
+      display: flex;
+      flex-wrap: wrap;
+      list-style: none;
+      padding: 0;
+    }
+
+    .menu-button-item {
+      width: calc(14.2857% - 10px);
+      margin: 5px;
+      overflow: hidden;
+      position: relative;
+      border: 2px solid #3498db; 
+      border-radius: 5px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .menu-button-item img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    
+    .menu-button-item:active {
+      transform: scale(1.1);
+      box-shadow: 0 0 20px rgba(52, 152, 219, 0.8);
+    }
+
+   
+    .menu-button-item:hover {
+      transform: scale(1.1);
+      box-shadow: 0 0 20px rgba(52, 152, 219, 0.8);
+    }
+  
